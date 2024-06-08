@@ -1,6 +1,7 @@
 Portfolio
 ![WhatsApp Image 2024-06-08 at 5 23 06 PM](https://github.com/Prateek0711/codsoft/assets/152788062/aced1561-2847-4a7c-9ea8-fb3121eea5df)
-(https://github.com/Prateek0711/codsoft/assets/152788062/4964832c-dbc8-470e-9ceb-00c3c5878d4e)
+![Screenshot (169)](https://github.com/Prateek0711/codsoft/assets/152788062/589a1c99-6055-4885-8f08-d8cf300ca082)
+
 
 ![Screenshot (170)](https://github.com/Prateek0711/codsoft/assets/152788062/e200d43d-5d19-4d08-aae0-b98784ba5fbd)
 
