@@ -11,4 +11,7 @@ Landing Page Functionalities
 ![Screenshot (159)](https://github.com/Prateek0711/codsoft/assets/152788062/7bd20859-9f05-4117-8aa0-d545613832eb)
 ![Screenshot (160)](https://github.com/Prateek0711/codsoft/assets/152788062/57b2dfe3-2aa8-4ce8-9184-4942e3266325)
 ![Screenshot (161)](https://github.com/Prateek0711/codsoft/assets/152788062/122321b9-0436-4db0-b180-7b1fc22d887e)
-![Screenshot (162)](https://github.com/Prateek0711/codsoft/assets/152788062/884eebd7-d07b-4c94-9fc2-198864579730)
+
+![Screenshot (171)](https://github.com/Prateek0711/codsoft/assets/152788062/82b223c3-5504-4e28-8213-91204abf123e)
+
+(https://github.com/Prateek0711/codsoft/assets/152788062/884eebd7-d07b-4c94-9fc2-198864579730)
