@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Prateek's Perk</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" id="homeLink" onclick="showSection('home')">Home</a></li>
+                <li><a href="#about" id="aboutLink" onclick="showSection('about')">About</a></li>
+                <li><a href="#menu" id="menuLink" onclick="showSection('menu')">Menu</a></li>
+                <li><a href="#contact" id="contactLink" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for menu items...">
+            <button onclick="searchMenu()">Search</button>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="c1.png" alt="Café Image 1">
+            </div>
+            <div class="mySlides fade">
+                <img src="coffee2.avif" alt="Café Image 2">
+            </div>
+            <div class="mySlides fade">
+                <img src="images.jpg" alt="Café Image 3">
+            </div>
+        </div>
+        <div class="overlay">
+            <h2>Our Café</h2>
+            <div class="home-content">
+                <img src="coffee.jpg" alt="Our Café" class="home-image">
+                <p>Welcome to <b>Prateek's Perk</b>, your local haven for exceptional coffee and community connection. Founded by Prateek, our café blends tradition with innovation, offering ethically sourced, meticulously roasted coffee. Our skilled baristas craft each cup to perfection, ensuring a delightful experience every time. Enjoy a variety of beverages and delicious bites in our warm, inviting atmosphere. Join us at <i>Prateek's Perk</i> to savor the art of coffee and the joy of togetherness.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="hidden">
+        <div class="about-overlay">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <h3>Our Vision</h3>
+                <p>Our vision is simple: to create a haven for coffee lovers and community members alike. We believe in the power of a great cup of coffee to bring people together, spark creativity, and enhance everyday moments. Our commitment to quality, sustainability, and community is at the heart of everything we do. We strive to be more than just a café; we aim to be a place where everyone feels welcome, valued, and inspired.</p>
+                <h3>Our Coffee</h3>
+                <p>At Prateek's Perk, coffee is an art form. We source our beans from the finest growers around the world, ensuring they are ethically and sustainably produced. Each batch is carefully roasted to perfection, highlighting the unique flavors and aromas of the beans. Our skilled baristas are passionate about their craft, meticulously brewing each cup to bring out the best in every blend. Whether you prefer a robust espresso, a creamy latte, or a refreshing cold brew, you'll find your perfect match here.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="hidden">
+        <h2>Menu</h2>
+        <div class="menu-item" onclick="showRate('Espresso', 'RS 300.00')">
+            <img src="espresso.webp" alt="Espresso">
+            <div class="menu-description">
+                <h3>Espresso</h3>
+                <p>Finely-ground coffee beans and hot water, high pressure for a rich, concentrated flavor ..</p>
+                <button class="add-to-cart" onclick="addToCart('Espresso')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="menu-item" onclick="showRate('Cappuccino', 'RS 200.00')">
+            <img src="cappuccino.jpg" alt="Cappuccino">
+            <div class="menu-description">
+                <h3>Cappuccino</h3>
+                <p>A perfect blend of espresso, steamed milk, and foam, topped with a sprinkle of cinnamon.</p>
+                <button class="add-to-cart" onclick="addToCart('Cappuccino')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="menu-item" onclick="showRate('Pastries', 'RS 150.50')">
+            <img src="Pastries.jpg" alt="Pastries">
+            <div class="menu-description">
+                <h3>Pastries</h3>
+                <p>Freshly baked pastries made with the finest ingredients, including butter, flour, and sugar.</p>
+                <button class="add-to-cart" onclick="addToCart('Pastries')">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="hidden">
+        <h2>Contact Us</h2>
+        <p>Email: prateek45999@gmail.com</p>
+        <p>Phone: +91 999999999</p>
+        <p>Instagram: @prateeks_perk</p>
+        <p>Address: 123 Main Street, Indore, India</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 <b>Prateek's Perk</b>. All rights reserved.</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h3 id="itemName"></h3>
+            <p id="itemRate"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
