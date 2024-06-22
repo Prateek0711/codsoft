@@ -15,4 +15,5 @@ Landing Page Functionalities
 ![Screenshot (171)](https://github.com/Prateek0711/codsoft/assets/152788062/82b223c3-5504-4e28-8213-91204abf123e)
 ![Screenshot (162)](https://github.com/Prateek0711/codsoft/assets/152788062/36feb6b8-3ce5-445e-99f9-bda21cdfed3d)
 
-
+Calculator
+![Calculator](https://github.com/Prateek0711/codsoft/assets/152788062/5ef2b155-324b-4e1d-86bc-8134016324d5)
